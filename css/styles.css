@@ -2,10 +2,11 @@
   --title-text-color: #212121;
   --primer-text-color: #757575;
   --accent-color: #2196f3;
+  --primary-bg-color: #e5e5e5;
 }
 
 .body {
-  background-color: #e5e5e5;
+  background-color: var(--primary-bg-color);
 }
 
 .list {
@@ -30,6 +31,10 @@
 
 .header-nav .link:hover,
 .header-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.link-portfolio {
   color: var(--accent-color);
 }
 
@@ -71,13 +76,31 @@
 .team-position {
   color: var(--primer-text-color);
 }
+
+/*кнопки*/
+
+.button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.hero-button {
+  color: white;
+  background-color: var(--accent-color);
+}
 /*основной цвет текста
-  #212121*/
+  #212121;*/
 /* вторичный цвет текста 
   color: #757575;
   /*цвет фона
   color: #E5E5E5;*/
 /*вторичный цвет фона
-  color: #F5F4FA*/
+  color: #F5F4FA;*/
 /*цвет акцента
-  color: #2196F3*/
+  color: #2196F3;*/ ;
