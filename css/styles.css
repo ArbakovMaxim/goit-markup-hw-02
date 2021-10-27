@@ -34,7 +34,11 @@
   color: var(--accent-color);
 }
 
-.link-portfolio {
+.link.portfolio {
+  color: var(--accent-color);
+}
+
+.link.studio {
   color: var(--accent-color);
 }
 
