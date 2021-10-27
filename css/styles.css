@@ -1,0 +1,83 @@
+:root {
+  --title-text-color: #212121;
+  --primer-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+.body {
+  background-color: #e5e5e5;
+}
+
+.list {
+  list-style: none;
+}
+
+/*header*/
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+/*сайтовая навигация*/
+
+.header-nav .link {
+  color: var(--title-text-color);
+}
+
+.header-nav .link:hover,
+.header-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.header-contact .contact {
+  color: var(--primer-text-color);
+}
+
+.header-contact .contact:hover,
+.header-contact .contact:focus {
+  color: var(--accent-color);
+}
+
+/*герой*/
+
+.hero-title {
+  color: #ffffff;
+}
+
+/*описание преимуществ*/
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.section-text {
+  color: var(--primer-text-color);
+}
+
+/*секций занятий и сотрудников*/
+
+.section-name {
+  color: var(--title-text-color);
+}
+
+.team-name {
+  color: var(--title-text-color);
+}
+
+.team-position {
+  color: var(--primer-text-color);
+}
+/*основной цвет текста
+  #212121*/
+/* вторичный цвет текста 
+  color: #757575;
+  /*цвет фона
+  color: #E5E5E5;*/
+/*вторичный цвет фона
+  color: #F5F4FA*/
+/*цвет акцента
+  color: #2196F3*/
