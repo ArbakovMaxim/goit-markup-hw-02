@@ -9,6 +9,7 @@
 
 .body {
   background-color: var(--primary-bg-color);
+  font-family: Roboto, sans-serif;
 }
 
 .list {
@@ -19,16 +20,27 @@
 
 .logo-web {
   color: var(--accent-color);
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 3px;
 }
 
 .logo-studio {
   color: #000000;
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 3px;
 }
 
 /*сайтовая навигация*/
 
 .header-nav .link {
   color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 2px;
 }
 
 .header-nav .link:hover,
@@ -126,6 +138,12 @@
 .logo-studio-footer {
   color: var(--color-white);
 }
+.footer-adres:hover,
+.footer-addres:focus,
+.foter-link:focus,
+.footer-link:hover {
+  color: var(--accent-color);
+}
 
 /*portfolio*/
 
@@ -140,13 +158,3 @@
 .projects-link:focus {
   color: var(--accent-color);
 }
-/*основной цвет текста
-  #212121;*/
-/* вторичный цвет текста 
-  color: #757575;
-  /*цвет фона
-  color: #E5E5E5;*/
-/*вторичный цвет фона
-  color: #F5F4FA;*/
-/*цвет акцента
-  color: #2196F3;*/ ;
