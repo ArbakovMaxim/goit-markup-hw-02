@@ -8,6 +8,7 @@
 }
 
 .body {
+  color: var(--title-text-color);
   background-color: var(--primary-bg-color);
   font-family: Roboto, sans-serif;
 }
@@ -20,27 +21,31 @@
 
 .logo-web {
   color: var(--accent-color);
+
   font-family: Raleway, cursive;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 3px;
+  letter-spacing: 0.03em;
 }
 
 .logo-studio {
   color: #000000;
+
   font-family: Raleway, cursive;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 3px;
+  letter-spacing: 0.03em;
 }
 
 /*сайтовая навигация*/
 
 .header-nav .link {
   color: var(--title-text-color);
+
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
-  letter-spacing: 2px;
+  letter-spacing: 0.02em;
 }
 
 .header-nav .link:hover,
@@ -58,6 +63,11 @@
 
 .header-contact .contact {
   color: var(--primer-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header-contact .contact:hover,
@@ -73,22 +83,43 @@
 
 .hero-title {
   color: var(--color-white);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
 }
 
 /*описание преимуществ*/
 
 .section-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 .section-text {
   color: var(--primer-text-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /*секций занятий и сотрудников*/
 
 .section-name {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .team-name {
@@ -119,6 +150,13 @@
 .hero-button {
   color: var(--color-white);
   background-color: var(--accent-color);
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /*footer*/
@@ -137,6 +175,11 @@
 
 .logo-studio-footer {
   color: var(--color-white);
+
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .footer-adres:hover,
 .footer-addres:focus,
