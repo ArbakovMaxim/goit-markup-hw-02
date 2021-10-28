@@ -2,14 +2,14 @@
   --title-text-color: #212121;
   --primer-text-color: #757575;
   --accent-color: #2196f3;
-  --primary-bg-color: #e5e5e5;
+  --primary-bg-color: #f5f4fa;
   --color-white: #ffffff;
   --color-fons: #2f303a;
 }
 
-.body {
+body {
   color: var(--title-text-color);
-  background-color: var(--primary-bg-color);
+  background-color: var(--color-white);
   font-family: Roboto, sans-serif;
 }
 
@@ -39,13 +39,15 @@
 
 /*сайтовая навигация*/
 
-.header-nav .link {
+.header .link,
+.footer .link {
   color: var(--title-text-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
 
 .header-nav .link:hover,
@@ -68,6 +70,8 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
 
 .header-contact .contact:hover,
@@ -94,8 +98,6 @@
 /*описание преимуществ*/
 
 .section-title {
-  color: var(--title-text-color);
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -113,8 +115,6 @@
 /*секций занятий и сотрудников*/
 
 .section-name {
-  color: var(--title-text-color);
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
@@ -123,22 +123,36 @@
 }
 
 .team-name {
-  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .team-position {
   color: var(--primer-text-color);
+
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .section.team {
-  background-color: #f5f4fa;
+  background-color: var(--primary-bg-color);
 }
 
 /*кнопки*/
 
 .button {
   color: var(--title-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--primary-bg-color);
+
+  cursor: pointer;
+
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
 }
 
 .button:hover,
@@ -150,6 +164,8 @@
 .hero-button {
   color: var(--color-white);
   background-color: var(--accent-color);
+
+  cursor: pointer;
 
   font-family: inherit;
   font-weight: 700;
@@ -167,15 +183,24 @@
 
 .footer-addres {
   color: var(--color-white);
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer-link {
   color: rgb(255, 255, 255, 60%);
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
 }
 
 .logo-studio-footer {
   color: var(--color-white);
-
   font-family: Raleway, cursive;
   font-size: 26px;
   line-height: 1.19;
@@ -192,12 +217,21 @@
 
 .projects-name {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .projects-description {
   color: var(--primer-text-color);
+
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
 
-.projects-link:focus {
-  color: var(--accent-color);
+.projects-link {
+  text-decoration: none;
 }
