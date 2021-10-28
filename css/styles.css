@@ -3,6 +3,8 @@
   --primer-text-color: #757575;
   --accent-color: #2196f3;
   --primary-bg-color: #e5e5e5;
+  --color-white: #ffffff;
+  --color-fons: #2f303a;
 }
 
 .body {
@@ -53,8 +55,12 @@
 
 /*герой*/
 
+.hero {
+  background-color: var(--color-fons);
+}
+
 .hero-title {
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 /*описание преимуществ*/
@@ -81,6 +87,10 @@
   color: var(--primer-text-color);
 }
 
+.section.team {
+  background-color: #f5f4fa;
+}
+
 /*кнопки*/
 
 .button {
@@ -90,13 +100,45 @@
 
 .button:hover,
 .button:focus {
-  color: #ffffff;
+  color: var(--color-white);
   background-color: var(--accent-color);
 }
 
 .hero-button {
-  color: white;
+  color: var(--color-white);
   background-color: var(--accent-color);
+}
+
+/*footer*/
+
+.footer {
+  background-color: var(--color-fons);
+}
+
+.footer-addres {
+  color: var(--color-white);
+}
+
+.footer-link {
+  color: rgb(255, 255, 255, 60%);
+}
+
+.logo-studio-footer {
+  color: var(--color-white);
+}
+
+/*portfolio*/
+
+.projects-name {
+  color: var(--title-text-color);
+}
+
+.projects-description {
+  color: var(--primer-text-color);
+}
+
+.projects-link:focus {
+  color: var(--accent-color);
 }
 /*основной цвет текста
   #212121;*/
