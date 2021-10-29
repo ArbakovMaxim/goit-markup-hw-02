@@ -150,6 +150,7 @@ body {
   cursor: pointer;
 
   font-family: inherit;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
@@ -211,6 +212,10 @@ body {
 .foter-link:focus,
 .footer-link:hover {
   color: var(--accent-color);
+}
+
+.address {
+  font-style: normal;
 }
 
 /*portfolio*/
